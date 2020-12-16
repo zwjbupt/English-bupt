@@ -1,0 +1,18 @@
+<!--pages/reading/reading.wxml-->
+<view class="uone" bindtap="toone">unit1</view>
+<view class="u1" bindtap="toone">Learning Chinese Style</view>
+<view class="look">————————————————————————————————</view>
+<view class="utwo" bindtap="totwo">unit2</view>
+<view class="u2" bindtap="totwo">A Life Full of Riches</view>
+<view class="look">————————————————————————————————</view>
+<view class="uthree" bindtap="tothree">unit3</view>
+<view class="u3" bindtap="tothree">Father Knows Better</view>
+<view class="look">————————————————————————————————</view>
+<view class="ufour" bindtap="tofour">unit4</view>
+<view class="u4" bindtap="tofour">A Virtual Life</view>
+<view class="look">————————————————————————————————</view>
+<view class="ufive" bindtap="tofive">unit5</view>
+<view class="u5" bindtap="tofive">True Height</view>
+<view class="look">————————————————————————————————</view>
+
+

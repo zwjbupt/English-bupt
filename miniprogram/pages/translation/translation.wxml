@@ -1,0 +1,25 @@
+
+  <image class='background-image' src='https://7465-test-1gskp8mz8d86bcc1-1303735675.tcb.qcloud.la/12.png?sign=81365e5a3cfb190aab0e52705ddca6a5&t=1608041894' mode="aspectFill"></image>
+ <view class="input-box" >
+    <input class='input' name="word" placeholder="input your word~"  bindinput="voteTitle" type="text"></input>
+ <view>
+    <button type='primary' bindtap="search" class="button-box">search</button>
+ </view>
+ <view><button catchtap="handleSaveTap" style="background-color:yellow">save</button></view>
+ <view><form>
+   <view class="word-box">{{word}}</view>
+   <view><text>{{exam_type}}</text></view>
+   <view class="phonetic-box"> {{phonetic}}</view>
+</form>
+</view>
+<scroll-view scroll-y="true" scroll-top="50">
+<view class="explains-box">{{explains}}</view>
+</scroll-view>
+</view>
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<!--miniprogram/pages/device/device.wxml-->
+<template name="collect">
+   <view>
+   <view style="color:#FF3333" class="simple-look">{{item[0]}}</view> 
+   <view style="color:#333333" class="simple-look">{{item[1]}}</view>
+   <view style="color:#3366FF" class="look">{{item[2]}}</view>
+  </view>
+  <view style="color:#FF3333">----------------------------------------------</view>
+</template>
+
+<view class="pages">
+    <block wx:for="{{collect_list}}">
+         <template is="collect" data="{{item}}"/>
+    </block>
+</view>

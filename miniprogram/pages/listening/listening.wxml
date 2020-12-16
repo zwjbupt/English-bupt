@@ -1,0 +1,15 @@
+<view class="uone" bindtap="toone">unit1</view>
+<view class="u1" bindtap="toone">Sports</view>
+<view class="look">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<view class="utwo" bindtap="totwo">unit2</view>
+<view class="u2" bindtap="totwo">Food And Drinks</view>
+<view class="look">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<view class="uthree" bindtap="tothree">unit3</view>
+<view class="u3" bindtap="tothree">Weather</view>
+<view class="look">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<view class="ufour" bindtap="tofour">unit4</view>
+<view class="u4" bindtap="tofour">Music</view>
+<view class="look">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<view class="ufive" bindtap="tofive">unit5</view>
+<view class="u5" bindtap="tofive">Health</view>
+<view class="look">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>

@@ -1,0 +1,10 @@
+
+<view class="root">
+  <image class='background-image' src='https://7465-test-1gskp8mz8d86bcc1-1303735675.tcb.qcloud.la/5.png?sign=af42ec23ec3c3fec9cff57fc3063ffdb&t=1608037110' mode="aspectFill"></image>
+ <button style=" background-color:yellow"  bindtap="open" class="start">Start! Let's go!</button>
+</view>
+
+
+
+
+

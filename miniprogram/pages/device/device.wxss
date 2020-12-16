@@ -1,0 +1,24 @@
+/* miniprogram/pages/device/device.wxss */
+.collect{
+  width: 100%;
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pages{
+  background-color: white;
+  height: 100%;width: 100%;
+}
+
+.look{
+  display: flex;
+flex-direction: row;
+ padding-top: 15px;
+ padding-left: 10px;
+}
+
+.simple-look{
+  text-align:center ;
+}

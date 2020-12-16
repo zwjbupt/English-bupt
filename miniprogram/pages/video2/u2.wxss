@@ -1,0 +1,22 @@
+
+audio{
+  position: relative;
+}
+audio .free-MusicProgress{
+  position: absolute;
+  width:78%;
+  left:21.7%;
+  bottom:1px;
+  background:#C3C3C3;
+}
+audio .free-MusicProgress>view{
+  background:#48c23d;
+  height:2px;
+}
+.background-image{
+  height : 100%;
+   position: absolute;
+   width: 100%;
+   left: 0px;
+   top: 0px;
+}

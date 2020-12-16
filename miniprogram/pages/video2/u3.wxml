@@ -1,0 +1,28 @@
+
+  <image class='background-image' src='https://7465-test-1gskp8mz8d86bcc1-1303735675.tcb.qcloud.la/2.jpg?sign=1c426d2c6e13e6b1c232344897babbaf&t=1608037177' mode="aspectFill"></image>
+
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">audio</text>
+    <text class="page__desc">音频</text>
+  </view>
+  <view class="page__bd">
+    <view class="section section_gap">
+      <audio src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" bindplay="audioPlayed" controls></audio>
+    </view>
+  </view>
+
+  <view class="section section_gap">
+    <text class="section__title">播放</text>
+    <view class="body-view">
+      <button bindtap="playAudio">播放</button>
+    </view>
+  </view>
+
+  <view class="section section_gap">
+    <text class="section__title">暂停</text>
+    <view class="body-view">
+      <button bindtap="pauseAudio">暂停</button>
+    </view>
+  </view>
+</view>

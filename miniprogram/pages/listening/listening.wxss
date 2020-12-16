@@ -1,0 +1,56 @@
+.look{
+  text-align:center;  
+}
+
+.uone{
+  font-size:65rpx;
+  text-align:center; 
+
+}
+.u1{
+  font-size:40rpx;
+  text-align:center;  
+
+}
+.utwo{
+  font-size:65rpx;
+  text-align:center;  
+
+}
+.u2{
+  font-size:40rpx;
+  text-align:center;  
+
+}
+.uthree{
+  font-size:65rpx;
+  text-align:center;  
+
+}
+.u3{
+  font-size:40rpx;
+  text-align:center;  
+
+}
+.ufour{
+  font-size:65rpx;
+  text-align:center;  
+
+}
+.u4{
+  font-size:40rpx;
+  text-align:center;  
+
+}
+.ufive{
+  font-size:65rpx;
+  text-align:center;  
+
+}
+.u5{
+  font-size:40rpx;
+  text-align:center;  
+
+}
+
+

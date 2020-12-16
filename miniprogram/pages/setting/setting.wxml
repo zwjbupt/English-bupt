@@ -1,0 +1,40 @@
+
+<view>
+  <!--用户信息栏，使用open-data展示用户信息-->
+  <view class="category-item personal-info">
+    <!--用户头像-->
+    <view class="user-avatar">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <!--用户名-->
+    <view class="user-name">
+       <open-data type="userNickName"></open-data>    
+    </view>
+  </view>
+  </view>
+
+
+ <!--单词本及清空单词本页面-->
+ <view class="category-item">
+  <block wx:for="{{device}}">
+    <view class="detail-item" catchtap="{{item.tap}}">
+      <text>{{item.title}}</text>
+    <view class="detail-item-btn"></view>
+     </view>
+ </block>
+  </view>
+  
+  <view class="simple">
+  <swiper style="height:500rpx" indicator-dots="true" autoplay="{{autoplay}}" interval="2500">
+  <swiper-item>
+    <image src="https://7465-test-1gskp8mz8d86bcc1-1303735675.tcb.qcloud.la/11.jpg?sign=388940fdc799662021fddf6a54cdec2e&t=1608041655" style="width:80%; height:400rpx" bindtap="changeAutoplay"></image>
+  </swiper-item>  
+  <swiper-item>
+    <image src="https://7465-test-1gskp8mz8d86bcc1-1303735675.tcb.qcloud.la/13.png?sign=4ff7d43f1ab102719eb49b9dfb611baa&t=1608041701" style="width:80%; height:400rpx" bindtap="changeAutoplay"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://7465-test-1gskp8mz8d86bcc1-1303735675.tcb.qcloud.la/1.jpg?sign=db2b1d1d58bf2455bbe057eb3cb73e43&t=1608041672" style="width:80%; height:400rpx" bindtap="changeAutoplay"></image>
+  </swiper-item>
+
+  </swiper>
+  </view>

@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/reading/reading",
+    "pages/listening/listening",
+    "pages/translation/translation",
+    "pages/setting/setting",
+    "pages/device/device",
+    "pages/about/about",
+    "pages/book2/u1",
+    "pages/book2/u2",
+    "pages/book2/u3",
+    "pages/book2/u4",
+    "pages/book2/u5",
+    "pages/video2/u1",
+    "pages/video2/u2",
+    "pages/video2/u3",
+    "pages/video2/u4",
+    "pages/video2/u5"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/listening/listening",
+        "text": "listening",
+        "iconPath": "tubiao/1.jpg",
+        "selectedIconPath": "tubiao/2.jpg"
+      },
+      {
+        "pagePath": "pages/reading/reading",
+        "text": "reading",
+        "iconPath": "tubiao/5.jpg",
+        "selectedIconPath": "tubiao/6.jpg"
+      },
+      {
+        "pagePath": "pages/translation/translation",
+        "text": "translation",
+        "iconPath": "tubiao/7.png",
+        "selectedIconPath": "tubiao/8.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "setting",
+        "iconPath": "tubiao/9.jpg",
+        "selectedIconPath": "tubiao/10.jpg"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169E1",
+    "navigationBarTitleText": "英语学习助手",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
